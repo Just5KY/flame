@@ -12,6 +12,7 @@
 name: Anchore Container Scan
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "latest" ]
     paths-ignore:
